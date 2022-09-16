@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coin .content{
+    max-width: 740px;
+    margin: 1rem;
+    padding: 0.7rem 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #26272b;
+    box-shadow: 0 0 10px #18191b;
+    border-radius: 10px;
+    position: relative;
+}
+
+.rank{
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rankBtn{
+    border: 1px solid #6900ff;
+    box-shadow: 0 0 8px #6900ff;
+    background-color: #6900ff;
+    border-radius: 8px;
+    padding: 0.5rem;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.info .coinHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    padding-right: 1rem;
+}
+table p {
+    padding: 0;
+}
+
+.change{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    margin: 1rem;
+}
+
+
+table {
+    margin: 0.5rem;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
